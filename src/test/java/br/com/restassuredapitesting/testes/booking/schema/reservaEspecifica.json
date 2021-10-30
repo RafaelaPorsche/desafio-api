@@ -11,16 +11,16 @@
   ],
   "properties": {
     "firstname": {
-      "type": "string",
+      "type": "string"
     },
     "lastname": {
-      "type": "string",
+      "type": "string"
     },
     "totalprice": {
-      "type": "integer",
+      "type": "integer"
     },
     "depositpaid": {
-      "type": "boolean",
+      "type": "boolean"
     },
     "bookingdates": {
       "type": "object",
@@ -30,15 +30,15 @@
       ],
       "properties": {
         "checkin": {
-          "type": "string",
+          "type": "string"
         },
         "checkout": {
-          "type": "string",
+          "type": "string"
         }
       }
     },
     "additionalneeds": {
-      "type": "string",
+      "type": "string"
     }
   }
 }

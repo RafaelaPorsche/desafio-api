@@ -10,6 +10,12 @@ public class Utils {
                 + nameSchema
                 + ".json";
     }
+    public static String getJsonPostPath(String name){
+        return System.getProperty("user.dir")
+                + "/src/test/java/br/com/restassuredapitesting/utils/"
+                + name
+                + ".json";
+    }
 
 
 }
